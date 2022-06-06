@@ -15,10 +15,17 @@ article{
 }
 
 
-img{
+.profile-pic{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 100px;
+}
+
+.contact{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
 }
 
 .nav-bar{
@@ -35,11 +42,13 @@ img{
     justify-content: center;
 }
 
-footer{
-    background-color: pink;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    height: 50px;
-    
+.about-title{
+    display: flex;
+    justify-content: center;
+    font: 40px;
+    padding: 20px;
+}
+
+#about-pic{
+    padding: 100px;
 }
