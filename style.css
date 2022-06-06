@@ -4,21 +4,30 @@ body{
 }
 
 header{
-    display: flex;
-    justify-content: right;
     background-color: lightblue;
     font-size: 40px;
 }
+
+
 img{
     display: flex;
-}
-article{
-    display: flex;
-    justify-content: right;
+    justify-content: center;
+    align-items: center;
 }
 
-nav{
+.nav-bar{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    gap: 100px;
     background-color: aquamarine;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    background-color: pink;
+    
 }
