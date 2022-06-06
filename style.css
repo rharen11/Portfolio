@@ -1,31 +1,6 @@
 
 body{
-    background-image: url(https://imgur.com/OylHCY8);
-}
-
-header{
-    background-color: lightblue;
-    font-size: 40px;
-    padding: 20px;
-}
-
-article{
-    background-color: lightgreen;
-    padding: 20px;
-}
-
-
-.profile-pic{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 100px;
-}
-
-.contact{
-    display: flex;
-    justify-content: center;
-    padding: 50px;
+    background-color: lightcoral;
 }
 
 .nav-bar{
@@ -37,9 +12,36 @@ article{
     background-color: aquamarine;
 }
 
-.flex-container{
+header{
     display: flex;
     justify-content: center;
+    background-color: lightblue;
+    font-size: 80px;
+    padding: 20px;
+    border: solid gray;
+}
+
+article{
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    padding: 20px 200px;
+    margin: auto 0;
+}
+
+.profile-pic{
+    display: flex;
+    justify-content: center;
+    border: solid black;
+    
+}
+
+.contact{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    margin: 100px;
+    border: solid black;
 }
 
 .about-title{
@@ -47,8 +49,11 @@ article{
     justify-content: center;
     font: 40px;
     padding: 20px;
+    border: solid gray;
 }
 
-#about-pic{
+.about-pic{
+    display: flex;
+    justify-content: center;
     padding: 100px;
 }
