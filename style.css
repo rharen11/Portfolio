@@ -1,6 +1,7 @@
 
 body{
     border: dotted black;
+    font-family: 'Bad Script', cursive;
 }
 
 .nav-bar{
@@ -57,9 +58,6 @@ body{
 .about-title{
     font: 40px;
     border: solid gray;
-}
-
-.about-pic{
 }
 
 .projects{
