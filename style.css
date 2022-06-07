@@ -12,23 +12,37 @@ body{
     background-color: aquamarine;
 }
 
-header{
+.welcome-page{
+    display: grid;
+    margin: 0;
+    min-height: 200vh; 
+    grid-template-columns: 10% 80% 10%; 
+    grid-template-rows: auto 1fr 1fr 1fr 1fr auto;
+}
+
+#name{
     background-color: lightblue;
-    font-size: 80px;
-    padding: 20px;
-    border: solid gray;
+    font-size: 80px;  
+    grid-column: 2 / 3;
+    grid-row: 1 / span 1;
 }
 
-h1{
+#welcome-message{
     background-color: lightpink;
+    grid-column: 2 / 3;
+    grid-row: 2 /span 1;
 }
 
-.profile-pic{
+#profile-pic{
     border-radius: 75px;
+    grid-column: 2 / 3;
+    grid-row: 3 / span 1;
 }
 
-.contact{
-    border: solid black;
+#contact{
+    background-color: lightgrey;
+    grid-column: 2 / 3;
+    grid-row: 4 / span 1;
 }
 
 .about-title{
@@ -42,4 +56,10 @@ h1{
 .projects{
     padding: 50px;
     border: solid;
+}
+
+.flex-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
