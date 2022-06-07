@@ -1,6 +1,7 @@
 
 body{
     background-color: lightcoral;
+    border: dotted black;
 }
 
 .nav-bar{
@@ -24,7 +25,7 @@ header{
 article{
     display: flex;
     justify-content: center;
-    background-color: transparent;
+    background-color: lightpink;
     padding: 20px 200px;
     margin: auto 0;
 }
@@ -32,6 +33,7 @@ article{
 .profile-pic{
     display: flex;
     justify-content: center;
+    border-radius: 75px;
     border: solid black;
     
 }
