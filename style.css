@@ -13,27 +13,36 @@ body{
 }
 
 .welcome-page{
+    background-image: url(/assets/pexels-ben-mack-5326909.jpg);
+    background-position: center;
     display: grid;
     margin: 0;
-    min-height: 200vh; 
+    min-height: 100vh; 
     grid-template-columns: 10% 80% 10%; 
-    grid-template-rows: auto 1fr 1fr auto;
+    grid-template-rows: auto 1/10fr 1fr auto;
 }
 
 #name{
     background-color: lightblue;
-    font-size: 80px;  
+    font-size: 50px;  
     grid-column: 2 / 3;
     grid-row: 1 / span 1;
+    display: flex;
+    justify-content: center;
 }
 
 #welcome-message{
     background-color: lightpink;
+    font-size: 20px;
+    height: 30px;
     grid-column: 2 / 3;
     grid-row: 2 /span 1;
+    display: flex;
+    justify-content: center;
 }
 
 #profile-pic{
+    background-color: lightcyan;
     border-radius: 75px;
     grid-column: 2 / 3;
     grid-row: 3 / span 1;
