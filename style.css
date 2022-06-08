@@ -100,13 +100,26 @@ ion-icon {
 #about-to-home{
     grid-row: 3/ span 1;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     
+}
+
+#about-to-home > div:last-child{
+    margin-left: auto;
+    padding: 20px;
+}
+
+#about-icon{
+    padding: 20px;
+    margin-top: 10px;
 }
 
 #about-pic img{
     border: solid #FFE4F5;
     border-radius: 75%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
 }
 
 .projects-styling{
