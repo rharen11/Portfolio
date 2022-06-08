@@ -88,10 +88,12 @@ ion-icon {
 #about-section{
     color: #FFE4F5;
     background-color: #A58383;
+    text-indent: 50px;
     font-size: 20px;  
     grid-row: 2 / span 1;
     display: flex;
     justify-content: center;
+    margin: 30px;
 }
 
 #about-to-home{
