@@ -31,10 +31,10 @@ body{
 
 #welcome-message{
     color: #FFE4F5;
-    background-color: gray;
+    background-color: #A58383;
     display: flex;
     justify-content: center;
-    opacity: 0.4;
+    opacity: 0.9;
     font-size: 20px;
     height: 30px;
     border-radius: 50px;
