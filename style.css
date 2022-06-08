@@ -60,6 +60,11 @@ body{
     height: 50px;
 }
 
+ion-icon {
+    color: #FFE4F5;
+    font-size: 150px;
+  }
+
 .about-page{
     background-image: url(/assets/blackwhitesky.jpeg);
     background-size: cover;
