@@ -5,13 +5,31 @@ import { projects } from "./data.js"
 //cached elements---------
 const cardContainer = document.getElementById('card-container')
 const navBtns = document.querySelector('.nav-bar')
-const contactBtn = document.getElementById('contact')
+const githubBtn = document.getElementById('github-contact')
+const linkedinBtn = document.getElementById('linkedin-contact')
 
+console.log(githubBtn, linkedinBtn)
 //event listeners-------------
 
-contactBtn.addEventListener('mouseover', function(){
-    console.log('it works')
-})
+githubBtn.addEventListener('mouseover', function(evt){
+    githubBtn.style.color = 'red'
+    githubBtn.style.backgroundColor = 'black'
+
+    setTimeout(function(){
+        evt.target.style.color = ""
+        evt.target.style.backgroundColor = ""
+    }, 500)
+}, false)
+
+linkedinBtn.addEventListener('mouseover', function(evt){
+    linkedinBtn.style.color = 'red'
+    linkedinBtn.style.backgroundColor = 'black'
+
+    setTimeout(function(){
+        evt.target.style.color = ""
+        evt.target.style.backgroundColor = ""
+    }, 500)
+}, false)
 
 //functions------------------------
 
