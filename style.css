@@ -193,6 +193,21 @@ ion-icon {
     #welcome-message, #about-section{
         background-color: transparent;
     }
+
+    #profile-pic{
+        width: 200px;
+        height: 200px;
+    }
+
+    #about-pic img, #projects-page-pic img{
+        width: 100px;
+        height: 100px;
+    }
+
+    #projects-icon, #about-icon{
+        width: 100px;
+        height: 100px;
+    }
 }
 
 .flex-container {
