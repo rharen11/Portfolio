@@ -30,6 +30,7 @@ body{
 .welcome-page{
     background-image: url(/assets/blackwhitesky.jpeg);
     background-size: cover;
+    border-radius: 10%;
     display: grid;
     margin: 0;
     min-height: 100vh; 
@@ -83,6 +84,7 @@ ion-icon {
 .about-page{
     background-image: url(/assets/blackwhitesky.jpeg);
     background-size: cover;
+    border-radius: 10%;
     display: grid;
     margin: 0;
     min-height: 100vh; 
@@ -143,6 +145,7 @@ ion-icon {
 .projects-styling{
     background-image: url(/assets/blackwhitesky.jpeg);
     background-size: cover;
+    border-radius: 10%;
     display: grid;
     margin: 0;
     min-height: 100vh; 
