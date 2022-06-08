@@ -184,6 +184,11 @@ ion-icon {
     object-fit: cover;
 }
 
+.flex-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
 
 @media only screen and (max-width: 700px){
     .welcome-page, .about-page, .projects-styling{
@@ -203,10 +208,4 @@ ion-icon {
         width: 100px;
         height: 100px;
     }
-}
-
-.flex-container {
-	display: flex;
-	align-items: center;
-	justify-content: center;
 }
