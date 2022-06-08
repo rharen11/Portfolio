@@ -73,13 +73,19 @@ body{
 #contact{
     grid-row: 4 / span 1;
     margin-top: 50px;
-    height: 50px;
+    height: 30px;
 }
 
 ion-icon {
     color: #FFE4F5;
     font-size: 150px;
   }
+
+  .flex-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
 
 .about-page{
     background-image: url(/assets/blackwhitesky.jpeg);
@@ -197,12 +203,6 @@ ion-icon {
     width: 150px;
     height: 150px;
     object-fit: cover;
-}
-
-.flex-container {
-	display: flex;
-	align-items: center;
-	justify-content: center;
 }
 
 @media only screen and (max-width: 700px){
