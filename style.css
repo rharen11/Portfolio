@@ -1,15 +1,18 @@
 
 body{
     font-family: 'Kanit', sans-serif;
+    border: solid #FFE4F5;
+    background-color: #A58383;
 }
 
 .nav-bar{
     display: flex;
     flex-direction: row;
+    color: #FFE4F5;
     justify-content: center;
     gap: 100px;
     padding: 5px;
-    background-color: lightgray;
+    background-color: #A58383;
 }
 
 .welcome-page{
@@ -127,10 +130,21 @@ ion-icon {
     justify-content: center;
 }
 
+#card-container{
+    display: flex;
+    justify-content: center;
+}
+
 #projects-to-home{
     display: flex;
     justify-content: center;
     grid-row: 3 / span 1;
+}
+
+@media only screen and (max-width: 500px){
+    body{
+        background-color: #A58383;
+    }
 }
 
 .flex-container {
