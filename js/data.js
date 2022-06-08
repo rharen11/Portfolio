@@ -1,7 +1,21 @@
 
+//variables----------
 import { projects } from "./app.js"
 
+//cached elements---------
 const cardContainer = document.getElementById('card-container')
+const navBtns = document.querySelector('.nav-bar')
+
+//event listeners-------------
+navBtns.addEventListener("mouseover", function(evt){
+    evt.target.style.color = "yellow"
+
+    setTimeout(function(){
+        evt.target.style.color = ""
+    }, 1000)
+}, false)
+
+//functions------------------------
 
 let projectPage = projects.map(project =>
     
@@ -20,13 +34,3 @@ let projectPage = projects.map(project =>
 ).join('')
 
 cardContainer.innerHTML = projectPage
-
-const navBtns = document.querySelector('.nav-bar')
-
-navBtns.addEventListener("mouseover", function(evt){
-    evt.target.style.color = "yellow"
-
-    setTimeout(function(){
-        evt.target.style.color = ""
-    }, 1000)
-}, false)
