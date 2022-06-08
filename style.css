@@ -1,6 +1,6 @@
 
 body{
-    font-family: 'Bad Script', cursive;
+    font-family: 'Kanit', sans-serif;
 }
 
 .nav-bar{
@@ -22,7 +22,7 @@ body{
 }
 
 #name{
-    color: white;
+    color: #FFE4F5;
     font-size: 50px;  
     grid-row: 1 / span 1;
     display: flex;
@@ -30,7 +30,7 @@ body{
 }
 
 #welcome-message{
-    color: white;
+    color: #FFE4F5;
     background-color: gray;
     display: flex;
     justify-content: center;
@@ -69,16 +69,16 @@ body{
 }
 
 #about-title{
-    color: white;
+    color: #FFE4F5;
     font-size: 50px;  
     grid-row: 1 / span 1;
     display: flex;
     justify-content: center;
 }
 
-#aboutsection{
-    color: white;
-    font-size: 50px;  
+#about-section{
+    color: #FFE4F5;
+    font-size: 20px;  
     grid-row: 2 / span 1;
     display: flex;
     justify-content: center;
@@ -100,7 +100,7 @@ body{
 }
 
 #projects-title{
-    color: white;
+    color: #FFE4F5;
     font-size: 50px;  
     grid-row: 1 / span 1;
     display: flex;
@@ -108,7 +108,7 @@ body{
 }
 
 #projects-section{
-    color: white;
+    color: #FFE4F5;
     font-size: 50px;  
     grid-row: 2 / span 1;
     display: flex;
