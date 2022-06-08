@@ -7,13 +7,13 @@ const cardContainer = document.getElementById('card-container')
 const navBtns = document.querySelector('.nav-bar')
 
 //event listeners-------------
-navBtns.addEventListener("mouseover", function(evt){
-    evt.target.style.color = "yellow"
+// navBtns.addEventListener("mouseover", function(evt){
+//     evt.target.style.color = "yellow"
 
-    setTimeout(function(){
-        evt.target.style.color = ""
-    }, 1000)
-}, false)
+//     setTimeout(function(){
+//         evt.target.style.color = ""
+//     }, 1000)
+// }, false)
 
 //functions------------------------
 

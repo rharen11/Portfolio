@@ -15,6 +15,18 @@ body{
     background-color: #A58383;
 }
 
+#nav-link{
+    display: flex;
+    justify-content: center;
+    width: 80px;
+    border-radius: 75%;
+}
+
+#nav-link:hover{
+    color: #FFE4F5;
+    background-color: #635D73;
+}
+
 .welcome-page{
     background-image: url(/assets/blackwhitesky.jpeg);
     background-size: cover;
