@@ -194,11 +194,6 @@ ion-icon {
         background-color: transparent;
     }
 
-    #profile-pic{
-        width: 200px;
-        height: 200px;
-    }
-
     #about-pic img, #projects-page-pic img{
         width: 100px;
         height: 100px;
