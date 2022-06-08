@@ -93,6 +93,7 @@ body{
 }
 
 #about-pic img{
+    border: solid #FFE4F5;
     border-radius: 75%;
 }
 
