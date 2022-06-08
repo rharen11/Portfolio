@@ -90,9 +90,29 @@ body{
     justify-content: center;
 }
 
-.projects{
-    padding: 50px;
-    border: solid;
+.projects-styling{
+    background-image: url(/assets/blackwhitesky.jpeg);
+    background-size: cover;
+    display: grid;
+    margin: 0;
+    min-height: 100vh; 
+    grid-template-rows: 1/4fr 1fr 1fr auto;
+}
+
+#projects-title{
+    color: white;
+    font-size: 50px;  
+    grid-row: 1 / span 1;
+    display: flex;
+    justify-content: center;
+}
+
+#projects-section{
+    color: white;
+    font-size: 50px;  
+    grid-row: 2 / span 1;
+    display: flex;
+    justify-content: center;
 }
 
 .flex-container {
