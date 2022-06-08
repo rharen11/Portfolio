@@ -114,6 +114,11 @@ ion-icon {
     margin-top: 10px;
 }
 
+.bottom-projects-page > div:last-child{
+    margin-left: auto;
+    padding: 20px;
+}
+
 #about-pic img{
     border: solid #FFE4F5;
     border-radius: 75%;
@@ -152,11 +157,23 @@ ion-icon {
     justify-content: center;
 }
 
-#projects-to-home{
+.bottom-projects-page{
     display: flex;
-    justify-content: center;
-    grid-row: 3 / span 1;
+    justify-content: left;
 }
+
+#projects-icon{
+    padding: 20px;
+}
+
+#projects-page-pic img{
+    border: solid #FFE4F5;
+    border-radius: 75%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
 
 @media only screen and (max-width: 700px){
     .welcome-page, .about-page, .projects-styling{
