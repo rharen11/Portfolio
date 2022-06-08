@@ -91,7 +91,7 @@ ion-icon {
     justify-content: center;
 }
 
-#about-pic{
+#about-to-home{
     grid-row: 3/ span 1;
     display: flex;
     justify-content: center;
@@ -125,6 +125,12 @@ ion-icon {
     grid-row: 2 / span 1;
     display: flex;
     justify-content: center;
+}
+
+#projects-to-home{
+    display: flex;
+    justify-content: center;
+    grid-row: 3 / span 1;
 }
 
 .flex-container {
