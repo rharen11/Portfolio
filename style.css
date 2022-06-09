@@ -266,7 +266,7 @@ ion-icon {
 @media only screen and (max-width: 500px){
     
     .nav-bar{
-        gap: 20px;
+        gap: 15px;
     }
 
     #about-title{
@@ -279,8 +279,8 @@ ion-icon {
     }
 
     #profile-pic img{
-        width: 150px;
-        height: 150px;
+        width: 200px;
+        height: 200px;
     }
 
     #about-pic img, #projects-page-pic img{
