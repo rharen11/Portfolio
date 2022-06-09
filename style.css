@@ -217,6 +217,8 @@ ion-icon {
 
     #welcome-message, #about-section{
         background-color: transparent;
+        display: flex;
+        justify-content: center;
     }
 
     #profile-pic img{
