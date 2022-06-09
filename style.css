@@ -215,6 +215,12 @@ ion-icon {
         background-color: transparent;
     }
 
+    #profile-pic img{
+        border: solid #FFE4F5;
+        border-radius: 75%;
+        width: 200px;
+        height: 200px;
+
     #about-pic img, #projects-page-pic img{
         width: 100px;
         height: 100px;
