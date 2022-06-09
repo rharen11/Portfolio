@@ -13,21 +13,17 @@ console.log(githubBtn, linkedinBtn)
 
 githubBtn.addEventListener('mouseover', function(evt){
     githubBtn.style.color = 'red'
-    githubBtn.style.backgroundColor = 'black'
 
     setTimeout(function(){
         evt.target.style.color = ""
-        evt.target.style.backgroundColor = ""
     }, 500)
 }, false)
 
 linkedinBtn.addEventListener('mouseover', function(evt){
     linkedinBtn.style.color = 'red'
-    linkedinBtn.style.backgroundColor = 'black'
 
     setTimeout(function(){
         evt.target.style.color = ""
-        evt.target.style.backgroundColor = ""
     }, 500)
 }, false)
 
