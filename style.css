@@ -1,34 +1,39 @@
 
 body{
     font-family: 'Kanit', sans-serif;
-    border: solid #FFE4F5;
     --border: solid #FFE4F5;
-    --body-bg: #A58383;
-    --btn-text-color: #e05a5a;
-    --header-bg: #53424D;
+    --body-bg: #B9A6B2;
+    --btn-text-color: #FFE4F5;
     --color: #FFE4F5;
-    --header-text-color: #FFE4F5;
-    --inverted-btn-text-color: #eaeaea;
-    --light-dark-btn-bg: #53424D;
+    --header-bg: #53424D;
+    --header-text-color: #53424D;
+    --nav-bar-bg: #95BCB1;
+    --nav-bar-text: #FFE4F5;
+    --inverted-btn-text-color: #FFE4F5;
+    --light-dark-btn-bg: #B9A6B2;
     --light-dark-btn-content: "Dark Mode";
     background-color: var(--body-bg);
+    border: var(--border);
+    
 }
 
 body.dark{
-    --border: solid #FFE4F5;
-    --btn-text-color: #FFE4F5;
-    --color: #040404;
+    --border: solid #95BCB1;
+    --body-bg: #6B5965;
+    --btn-text-color: #6B5965;
     --header-bg: #FFE4F5;
-    /* --header-text-color: #53424D; */
-    --inverted-btn-text-color: #FFE4F5;
-    --light-dark-btn-bg: #B9A6B2;
+    --color: #6B5965;
+    --nav-bar-bg: #46313F;
+    --header-text-color: #FFE4F5;
+    --inverted-btn-text-color: #eaeaea;
+    --light-dark-btn-bg: #53424D;
     --light-dark-btn-content: "Light Mode";
 }
 
 .nav-bar{
     display: flex;
     flex-direction: row;
-    color: #FFE4F5;
+    color: var(--nav-bar-bg);
     justify-content: center;
     gap: 100px;
     padding: 5px;
@@ -38,7 +43,7 @@ body.dark{
 #nav-link-about, #nav-link-resume, #nav-link-work{
     display: flex;
     justify-content: center;
-    /* color: var(--header-text-color); */
+    color: var(--nav-bar-text;)
     width: 80px;
     border-radius: 75%;
 }
@@ -48,8 +53,8 @@ a:hover, a:visited, a:link, a:active{
 }
 
 #nav-link-about:hover, #nav-link-resume:hover, #nav-link-work:hover{
-    color: var(--color);
-    background-color: #635D73;
+    color: var(--nav-bar-text);
+    background-color: var(--nav-bar-bg);
 }
 
 .welcome-page{
@@ -66,6 +71,8 @@ a:hover, a:visited, a:link, a:active{
     grid-row: 1 / span 1;
     display: flex;
     justify-content: center;
+    margin-left: 250px;
+    margin-right: 250px;
 }
 
 #welcome-message{
@@ -78,10 +85,13 @@ a:hover, a:visited, a:link, a:active{
     height: 30px;
     border-radius: 50px;
     grid-row: 2 /span 1;
+    margin-left: 250px;
+    margin-right: 250px;
 }
 
 #profile-pic{
     grid-row: 3 / span 1;
+    margin-bottom: 50px;
 }
 
 #profile-pic img{
@@ -117,11 +127,15 @@ ion-icon {
 #about-title{
     background-color: var(--header-bg);
     color: var(--color);
-    background-color: var(--header-bg);
+    border: solid var(--nav-bar-bg);
     font-size: 50px;  
     grid-row: 1 / span 1;
     display: flex;
     justify-content: center;
+    margin-left: 250px;
+    margin-right: 250px;
+    padding-top: 30px;
+    border-radius: 10px;
 }
 
 .about-section{
@@ -133,6 +147,7 @@ ion-icon {
     display: flex;
     
     border-radius: 10px;
+    border: solid var(--nav-bar-bg);
     padding: 20px;
     margin: 30px;
 }
@@ -160,7 +175,7 @@ ion-icon {
 }
 
 #about-pic img{
-    border: solid #FFE4F5;
+    border: solid var(--nav-bar-bg);
     border-radius: 75%;
     width: 150px;
     height: 150px;
@@ -177,15 +192,20 @@ ion-icon {
 }
 
 #projects-title{
+    background-color: var(--header-bg);
     color: var(--color);
     font-size: 50px;  
     grid-row: 1 / span 1;
     display: flex;
     justify-content: center;
+    margin-left: 250px;
+    margin-right: 250px;
+    border: solid var(--nav-bar-bg);
+    border-radius: 10px;
 }
 
 #projects-section{
-    color: var(--color);
+    background-color: var(--color);
     font-size: 50px;  
     grid-row: 2 / span 1;
     display: flex;
@@ -241,33 +261,35 @@ ion-icon {
 }
 
 @media only screen and (max-width: 500px){
+    
     .nav-bar{
         gap: 20px;
-    }
+    };
     
     .welcome-page, .about-page, .projects-styling{
         background-image: none;
-    }
+    };
 
     #welcome-message, #about-section{
         background-color: transparent;
         display: flex;
         justify-content: center;
-    }
+    };
 
     #profile-pic img{
         border: solid #FFE4F5;
         border-radius: 75%;
         width: 200px;
         height: 200px;
+    };
 
     #about-pic img, #projects-page-pic img{
         width: 80px;
         height: 80px;
-    }
+    };
 
     #projects-icon, #about-icon{
         width: 100px;
         height: 100px;
-    } */
+    };
 }
