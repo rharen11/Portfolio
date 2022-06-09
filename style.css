@@ -78,7 +78,8 @@ body{
 
 ion-icon {
     color: #FFE4F5;
-    font-size: 150px;
+    padding: 30px;
+    font-size: 75px;
   }
 
   .flex-container {
