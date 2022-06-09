@@ -8,7 +8,6 @@ const navBtns = document.querySelector('.nav-bar')
 const githubBtn = document.getElementById('github-contact')
 const linkedinBtn = document.getElementById('linkedin-contact')
 
-console.log(githubBtn, linkedinBtn)
 //event listeners-------------
 
 githubBtn.addEventListener('mouseover', function(evt){

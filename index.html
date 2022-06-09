@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
     <script defer src="./js/app.js" type="module"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <link rel="stylesheet" href="./style.css">
     <link 
     href="https://fonts.googleapis.com/css2?family=Kanit:wght@100&display=swap" 
@@ -14,10 +16,10 @@
     <link 
         id= "favicon"
         rel="icon" 
-        href="/assets/profile-pic.jpeg"
-        >
+        href="/assets/profile-pic.jpeg">
 
 </head>
+
 <body>
     <nav class="nav-bar" id="link-to-home">
         <a href="#link-to-about">
@@ -53,14 +55,16 @@
     <div>
         <div class="about-page" id="link-to-about">
             <header id="about-title">About</header>
-             <h2 id="about-section">
+            <div class="about-section">
+             <p>
                 Hi, I’m Rachel- a Virginia transplant living the California dream. 
                 I scooped up a PharmD from Shenandoah University after exploring the city-scape at VCU during undergrad. 
                 After working through the entirety of COVID in a community hospital, I found a spark of joy in computer science. 
                 Now, here I am ready to reinvent what healthcare can look like through the power of software development. 
                 My vision is to fuse my love of pharmacy with the power of technology in an effort to build a safe and streamlined infrastructure for the post-COVID world of healthcare delivery. 
                 “It is only when they go wrong that machines remind you how powerful they are.” -Clive James
-            </h2>
+            </p>
+        </div>
         <div id="about-to-home">
             <a href="#link-to-home">
             <ion-icon name="home-outline" id="about-icon"></ion-icon>
@@ -89,7 +93,5 @@
         </div>
     </div>
   
-<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 </html>

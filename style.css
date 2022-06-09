@@ -82,12 +82,6 @@ ion-icon {
     font-size: 75px;
   }
 
-  .flex-container {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-
 .about-page{
     background-image: url(/assets/blackwhitesky.jpeg);
     background-size: cover;
@@ -106,14 +100,14 @@ ion-icon {
     justify-content: center;
 }
 
-#about-section{
+.about-section{
     color: #FFE4F5;
     background-color: #A58383;
     text-indent: 50px;
     font-size: 20px;  
     grid-row: 2 / span 1;
     display: flex;
-    justify-content: center;
+    
     border-radius: 10px;
     padding: 20px;
     margin: 30px;
@@ -206,7 +200,17 @@ ion-icon {
     object-fit: cover;
 }
 
+.flex-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
 @media only screen and (max-width: 700px){
+    .nav-bar{
+        gap: 50px;
+    }
+    
     .welcome-page, .about-page, .projects-styling{
         background-image: none;
     }
