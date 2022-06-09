@@ -208,7 +208,7 @@ ion-icon {
 
 @media only screen and (max-width: 700px){
     .nav-bar{
-        gap: 50px;
+        gap: 20px;
     }
     
     .welcome-page, .about-page, .projects-styling{
