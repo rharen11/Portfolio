@@ -1,8 +1,24 @@
 
 body{
     font-family: 'Kanit', sans-serif;
-    border: solid #FFE4F5;
-    background-color: #A58383;
+    --border: solid #FFE4F5;
+    --body-bg: #A58383;
+    --btn-text-color: #000000;
+    --header-text-color: #FFE4F5;
+    --inverted-btn-text-color: #eaeaea;
+    --light-dark-btn-bg: #1d1e2b;
+    --light-dark-btn-content: "Dark Mode";
+    background-color: var(--body-bg);
+}
+
+body.dark{
+    --border: solid #FFE4F5;
+    --body-bg: #53424D;
+    --btn-text-color: #FFE4F5;
+    --header-text-color: #FFE4F5;
+    --inverted-btn-text-color: #eaeaea;
+    --light-dark-btn-bg: #1d1e2b;
+    --light-dark-btn-content: "Light Mode";
 }
 
 .nav-bar{
@@ -28,7 +44,6 @@ body{
 }
 
 .welcome-page{
-    background-image: url(/assets/blackwhitesky.jpeg);
     background-size: cover;
     border-radius: 10%;
     display: grid;
@@ -83,7 +98,6 @@ ion-icon {
   }
 
 .about-page{
-    background-image: url(/assets/blackwhitesky.jpeg);
     background-size: cover;
     border-radius: 10%;
     display: grid;
@@ -144,7 +158,6 @@ ion-icon {
 }
 
 .projects-styling{
-    background-image: url(/assets/blackwhitesky.jpeg);
     background-size: cover;
     border-radius: 10%;
     display: grid;
@@ -200,13 +213,24 @@ ion-icon {
     object-fit: cover;
 }
 
+#light-dark-button {
+    background-color: var(--light-dark-btn-bg);
+    background-image: var(--light-dark-btn-bg);
+  }
+  
+  #light-dark-button::after {
+    border: none;
+    color: var(--inverted-btn-text-color);
+    content: var(--light-dark-btn-content);
+  }
+
 .flex-container {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
 
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 500px){
     .nav-bar{
         gap: 20px;
     }
@@ -216,7 +240,7 @@ ion-icon {
     }
 
     #welcome-message, #about-section{
-        background-color: #635D73;
+        background-color: transparent;
         display: flex;
         justify-content: center;
     }

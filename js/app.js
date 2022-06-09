@@ -7,6 +7,9 @@ const cardContainer = document.getElementById('card-container')
 const navBtns = document.querySelector('.nav-bar')
 const githubBtn = document.getElementById('github-contact')
 const linkedinBtn = document.getElementById('linkedin-contact')
+const lightDarkBtn = document.querySelector("#light-dark-button")
+const body = document.querySelector("body")
+
 
 //event listeners-------------
 
@@ -26,7 +29,24 @@ linkedinBtn.addEventListener('mouseover', function(evt){
     }, 500)
 }, false)
 
+lightDarkBtn.addEventListener('click', toggleLightDark)
+
 //functions------------------------
+
+function toggleLightDark() {
+    body.className = body.className === "dark" ? "" : "dark"
+  }
+
+  function checkDarkPref() {
+    if (
+      window.matchMedia("(prefers-color-scheme:dark)").matches &&
+      body.className !== "dark"
+    ) {
+      toggleLightDark()
+    }
+  }
+
+  checkDarkPref()
 
 let projectPage = projects.map(project =>
     
