@@ -216,7 +216,7 @@ ion-icon {
     }
 
     #welcome-message, #about-section{
-        background-color: transparent;
+        background-color: #635D73;
         display: flex;
         justify-content: center;
     }
