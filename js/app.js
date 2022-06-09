@@ -13,21 +13,21 @@ const body = document.querySelector("body")
 
 //event listeners-------------
 
-githubBtn.addEventListener('mouseover', function(evt){
+githubBtn.addEventListener('mouseenter', function(evt){
     githubBtn.style.color = 'red'
-
-    setTimeout(function(){
-        evt.target.style.color = ""
-    }, 500)
-}, false)
+})
 
 linkedinBtn.addEventListener('mouseover', function(evt){
     linkedinBtn.style.color = 'red'
+})
 
-    setTimeout(function(){
-        evt.target.style.color = ""
-    }, 500)
-}, false)
+githubBtn.addEventListener('mouseleave', function(evt){
+    githubBtn.style.color = ''
+})
+
+linkedinBtn.addEventListener('mouseleave', function(evt){
+    linkedinBtn.style.color = ''
+})
 
 lightDarkBtn.addEventListener('click', toggleLightDark)
 

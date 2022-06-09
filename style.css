@@ -1,15 +1,17 @@
 
 body{
     font-family: 'Kanit', sans-serif;
-    --border: solid #FFE4F5;
+    --border: solid #6B5965;
     --border-color: #FFE4F5;
     --body-bg: #B9A6B2;
     --btn-text-color: #FFE4F5;
     --color: #FFE4F5;
     --header-bg: #53424D;
     --header-text-color: #53424D;
-    --nav-bar-bg: #46313F;
-    --nav-bar-text: #FFE4F5;
+    --nav-bar-bg: #E6E0F1;
+    --nav-bar-text: #6B5965;
+    --nav-bar-hover-bg: #CCF4E9;
+    --nav-bar-hover-text: #6B5965;
     --inverted-btn-text-color: #FFE4F5;
     --light-dark-btn-bg: #B9A6B2;
     --light-dark-btn-content: "Dark Mode";
@@ -26,6 +28,9 @@ body.dark{
     --header-bg: #B9A6B2; 
     --color: #53424D;
     --nav-bar-bg: #46313F;
+    --nav-bar-hover-bg: #CCF4E9;
+    --nav-bar-text: #FFE4F5;
+    --nav-bar-hover-text: #6B5965;
     --header-text-color: #FFE4F5;
     --inverted-btn-text-color: #eaeaea;
     --light-dark-btn-bg: #53424D;
@@ -55,8 +60,8 @@ a:hover, a:visited, a:link, a:active{
 }
 
 #nav-link-about:hover, #nav-link-resume:hover, #nav-link-work:hover{
-    color: var(--nav-bar-text);
-    background-color: var(--nav-bar-bg);
+    color: var(--nav-bar-hover-text);
+    background-color: var(--nav-bar-hover-bg);
 }
 
 .welcome-page{
@@ -73,8 +78,6 @@ a:hover, a:visited, a:link, a:active{
     grid-row: 1 / span 1;
     display: flex;
     justify-content: center;
-    /* margin-left: 250px;
-    margin-right: 250px; */
 }
 
 #welcome-message{
@@ -87,8 +90,6 @@ a:hover, a:visited, a:link, a:active{
     height: 30px;
     border-radius: 50px;
     grid-row: 2 /span 1;
-    /* margin-left: 250px;
-    margin-right: 250px; */
 }
 
 #profile-pic{
@@ -115,6 +116,8 @@ ion-icon {
     color: var(--header-bg);
     padding: 30px;
     font-size: 75px;
+    margin-top: 20px;
+    margin-bottom: 50px;
   }
 
 .about-page{
@@ -134,9 +137,6 @@ ion-icon {
     grid-row: 1 / span 1;
     display: flex;
     justify-content: center;
-    /* margin-left: 250px;
-    margin-right: 250px;
-    padding-top: 30px; */
     border-radius: 10px;
 }
 
