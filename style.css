@@ -1,11 +1,12 @@
 
 body{
     font-family: 'Kanit', sans-serif;
-    border: pink;
+    border: solid #FFE4F5;
     --border: solid #FFE4F5;
     --body-bg: #A58383;
-    --btn-text-color: #000000;
+    --btn-text-color: #e05a5a;
     --header-bg: #53424D;
+    --color: #FFE4F5;
     --header-text-color: #FFE4F5;
     --inverted-btn-text-color: #eaeaea;
     --light-dark-btn-bg: #53424D;
@@ -15,10 +16,10 @@ body{
 
 body.dark{
     --border: solid #FFE4F5;
-    --body-bg: #53424D;
     --btn-text-color: #FFE4F5;
+    --color: #040404;
     --header-bg: #FFE4F5;
-    --header-text-color: #53424D;
+    /* --header-text-color: #53424D; */
     --inverted-btn-text-color: #FFE4F5;
     --light-dark-btn-bg: #B9A6B2;
     --light-dark-btn-content: "Light Mode";
@@ -34,9 +35,10 @@ body.dark{
     background-color: #A58383;
 }
 
-#nav-link{
+#nav-link-about, #nav-link-resume, #nav-link-work{
     display: flex;
     justify-content: center;
+    /* color: var(--header-text-color); */
     width: 80px;
     border-radius: 75%;
 }
@@ -45,15 +47,12 @@ a:hover, a:visited, a:link, a:active{
     text-decoration: none;
 }
 
-#nav-link:hover{
-    color: #FFE4F5;
+#nav-link-about:hover, #nav-link-resume:hover, #nav-link-work:hover{
+    color: var(--color);
     background-color: #635D73;
 }
 
 .welcome-page{
-    background: url(./assets/blackwhitesky.jpeg);
-    background-size: cover;
-    border-radius: 10%;
     display: grid;
     margin: 0;
     min-height: 100vh; 
@@ -61,7 +60,7 @@ a:hover, a:visited, a:link, a:active{
 }
 
 #name{
-    color: #FFE4F5;
+    color: var(--color);
     background-color: var(--header-bg);
     font-size: 50px;  
     grid-row: 1 / span 1;
@@ -70,7 +69,7 @@ a:hover, a:visited, a:link, a:active{
 }
 
 #welcome-message{
-    color: #FFE4F5;
+    color: var(--color);
     background-color: var(--header-bg);
     display: flex;
     justify-content: center;
@@ -116,7 +115,8 @@ ion-icon {
 }
 
 #about-title{
-    color: #FFE4F5;
+    background-color: var(--header-bg);
+    color: var(--color);
     background-color: var(--header-bg);
     font-size: 50px;  
     grid-row: 1 / span 1;
@@ -125,7 +125,7 @@ ion-icon {
 }
 
 .about-section{
-    color: #FFE4F5;
+    color: var(--color);
     background-color: var(--header-bg);
     text-indent: 50px;
     font-size: 20px;  
@@ -177,7 +177,7 @@ ion-icon {
 }
 
 #projects-title{
-    color: #FFE4F5;
+    color: var(--color);
     font-size: 50px;  
     grid-row: 1 / span 1;
     display: flex;
@@ -185,7 +185,7 @@ ion-icon {
 }
 
 #projects-section{
-    color: #FFE4F5;
+    color: var(--color);
     font-size: 50px;  
     grid-row: 2 / span 1;
     display: flex;
@@ -269,5 +269,5 @@ ion-icon {
     #projects-icon, #about-icon{
         width: 100px;
         height: 100px;
-    }
+    } */
 }
