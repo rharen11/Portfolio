@@ -16,8 +16,7 @@ body{
     --light-dark-btn-bg: #B9A6B2;
     --light-dark-btn-content: "Dark Mode";
     background-color: var(--body-bg);
-    border: var(--border);
-  
+    border: var(--border); 
 }
 
 body.dark{
@@ -114,9 +113,9 @@ a:hover, a:visited, a:link, a:active{
 
 ion-icon {
     color: var(--header-bg);
-    padding: 30px;
+    padding: 5px;
     font-size: 75px;
-    margin-top: 20px;
+    margin-top: 50px;
     margin-bottom: 50px;
   }
 
@@ -138,6 +137,7 @@ ion-icon {
     display: flex;
     justify-content: center;
     border-radius: 10px;
+    padding-top: 50px;
 }
 
 .about-section{
@@ -215,6 +215,7 @@ ion-icon {
 }
 
 #card-container{
+    margin-top: 50px;
     display: flex;
     justify-content: center;
 }
@@ -266,28 +267,35 @@ ion-icon {
     
     .nav-bar{
         gap: 20px;
-    };
+    }
+
+    #about-title{
+        padding-bottom: 50px;
+    }
 
     #welcome-message, #about-section{
-        background-color: transparent;
         display: flex;
         justify-content: center;
-    };
+    }
 
     #profile-pic img{
-        border: solid  var(--color);
-        border-radius: 75%;
-        width: 100px;
-        height: 100px;
-    };
+        width: 150px;
+        height: 150px;
+    }
 
     #about-pic img, #projects-page-pic img{
-        width: 80px;
-        height: 80px;
-    };
+        width: 100px;
+        height: 100px;
+    }
+
+    .bottom-projects-page{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
     #projects-icon, #about-icon{
         width: 100px;
         height: 100px;
-    };
+    }
 }
