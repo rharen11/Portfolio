@@ -4,7 +4,6 @@ import { projects } from "./data.js"
 
 //cached elements---------
 const cardContainer = document.getElementById('card-container')
-const navBtns = document.querySelector('.nav-bar')
 const githubBtn = document.getElementById('github-contact')
 const linkedinBtn = document.getElementById('linkedin-contact')
 const lightDarkBtn = document.querySelector("#light-dark-button")
@@ -50,7 +49,7 @@ function toggleLightDark() {
     }
   }
 
-  checkDarkPref()
+checkDarkPref()
 
 let projectPage = projects.map(project =>
     
