@@ -12,5 +12,6 @@ Getting started: https://rachelkinzel-portfolio.netlify.app/
 Technologies: Javascript, HTML, CSS
 Sourced icons from: https://ionic.io/ionicons
 Sourced card from:  https://getbootstrap.com/docs/4.0/components/card/
+Sourced light/dark toggle code from: https://www.youtube.com/watch?v=W8vzyFFia6Q&list=PL2Kp3FX7ViJhG0pEPC-ysHuQEV_KdQItr&index=42&t=1600s
 
 Next steps: improve user interacivity experience, seperate each section into a different web page, add more responsive design to better utilize space and content. 
