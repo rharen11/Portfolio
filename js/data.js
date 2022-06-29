@@ -9,7 +9,7 @@ let projects = [
     },
     {
         title: 'Sonoma Hikes',
-        image: ,
+        image: './assets/hiking-pic.png',
         description: 'Explore Hood Mountain with an interactive app',
         github: 'https://github.com/rharen11/sonoma-hikes',
         deployment: 'https://sonoma-hikes.herokuapp.com/'
