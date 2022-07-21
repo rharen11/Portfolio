@@ -13,6 +13,13 @@ let projects = [
         description: 'Explore Hood Mountain with an interactive app',
         github: 'https://github.com/rharen11/sonoma-hikes',
         deployment: 'https://sonoma-hikes.herokuapp.com/'
+    },
+    {
+        title: 'Newt',
+        image: './assets.newtmain.png',
+        description: 'Become an object in motion!',
+        github: 'https://github.com/berylrb/newt-front-end',
+        deployment: 'https://newt-activity.netlify.app/'
     }
 ]
 
