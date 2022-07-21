@@ -16,7 +16,7 @@ let projects = [
     },
     {
         title: 'Newt',
-        image: './assets.newtmain.png',
+        image: './assets/newtmain.png',
         description: 'Become an object in motion!',
         github: 'https://github.com/berylrb/newt-front-end',
         deployment: 'https://newt-activity.netlify.app/'
