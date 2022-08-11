@@ -208,11 +208,12 @@ ion-icon {
     justify-content: center;
 }
 
-#card{
+.card{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 300px;
 }
 
 #card-container{
@@ -221,19 +222,29 @@ ion-icon {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 10px;
+    /* padding: 10px; */
 }
 
 .card-body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  
+  align-items: center;
   background-color: #A58383;
   color: #FFE4F5;
   padding: 10px;
-  border: solid #FFE4F5; 
+  border: solid thin #FFE4F5; 
   border-radius: 20px;
+  width: 280px;
+  margin-bottom: 15px;
 }
 
 #card-img-top img{
     size: inherit;
+}
+
+.card-img-top{
+    border-radius: 5px;
 }
 
 .bottom-projects-page{
