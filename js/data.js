@@ -20,6 +20,13 @@ let projects = [
         description: 'Become an object in motion!',
         github: 'https://github.com/berylrb/newt-front-end',
         deployment: 'https://newt-activity.netlify.app/'
+    },
+    {
+        title: 'Swept Away',
+        image: './assets/swept-away.png',
+        description: 'Clean for the moment, enjoy for life',
+        github: 'https://github.com/rharen11/swept-away',
+        deployment: 'https://swept-away-rlk.herokuapp.com/'
     }
 ]
 
