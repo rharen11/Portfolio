@@ -1,7 +1,18 @@
-
+body{
+    background-image: url(./assets/branch.jpg);
+    background-attachment: fixed;
+    -webkit-background-size: 100%; 
+    -moz-background-size: 100%; 
+    -o-background-size: 100%; 
+    background-size: 100%; 
+    -webkit-background-size: cover; 
+    -moz-background-size: cover; 
+    -o-background-size: cover; 
+    background-size: cover;
+    background-position: center center;
+}
 body{
     font-family: 'Kanit', sans-serif;
-    --border: solid #6B5965;
     --border-color: #FFE4F5;
     --body-bg: #B9A6B2;
     --btn-text-color: #FFE4F5;
@@ -20,7 +31,6 @@ body{
 }
 
 body.dark{
-    --border: solid #95BCB1;
     --border-color: #CCF4E9;
     --body-bg: #46313F;
     --btn-text-color: #6B5965;
@@ -71,51 +81,51 @@ a:hover, a:visited, a:link, a:active{
 
 #name{
     color: var(--color);
-    background-color: var(--header-bg);
-    font-size: 50px;  
+    /* background-color: var(--header-bg); */
+    font-size: 45px;  
     grid-row: 1 / span 1;
     display: flex;
-    justify-content: center;
+    justify-content: left;
 }
 
 #welcome-message{
     color: var(--color);
-    background-color: var(--header-bg);
+    /* background-color: var(--header-bg); */
     display: flex;
-    justify-content: center;
+    justify-content: left;
     opacity: 0.9;
     font-size: 20px;
     height: 30px;
-    border-radius: 50px;
     grid-row: 2 /span 1;
+    margin-top: 0;
 }
 
 #profile-pic{
     grid-row: 3 / span 1;
-    margin-bottom: 50px;
+    display: flex;
+    justify-content: left;
 }
 
 #profile-pic img{
-    border: solid var(--border-color);
     border-radius: 75%;
-    width: 300px;
-    height: 300px;
     object-fit: cover;
-    margin-top: 50px;
 }
 
 #contact{
     grid-row: 4 / span 1;
     margin-top: 50px;
     height: 30px;
+    display: flex;
+    justify-content: left;
 }
 
 ion-icon {
-    color: var(--header-bg);
+    color: #46313F;
     padding: 5px;
-    font-size: 75px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    font-size: 40px;
+    display: flex;
+    justify-content: left;
+    margin-bottom: 150px;
   }
 
 .about-page{
