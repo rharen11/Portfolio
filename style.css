@@ -16,10 +16,10 @@ body{
     --border-color: #FFE4F5;
     --body-bg: #B9A6B2;
     --btn-text-color: #FFE4F5;
-    --color: #FFE4F5;
+    --color: #E4CCB4;
     --header-bg: #53424D;
     --header-text-color: #53424D;
-    --nav-bar-bg: #E6E0F1;
+    --nav-bar-bg: #E4CCB4;
     --nav-bar-text: #6B5965;
     --nav-bar-hover-bg: #CCF4E9;
     --nav-bar-hover-text: #6B5965;
@@ -124,7 +124,7 @@ a:hover, a:visited, a:link, a:active{
 }
 
 ion-icon {
-    color: #46313F;
+    color: #E4CCB4;
     padding: 5px;
     font-size: 40px;
     display: flex;
@@ -141,7 +141,7 @@ ion-icon {
 #about-title{
     /* background-color: var(--header-bg); */
     /* color: var(--color); */
-    color: #eaeaea;
+    color: #E4CCB4;
     font-size: 50px;  
     grid-row: 1 / span 1;
     display: flex;
@@ -151,8 +151,8 @@ ion-icon {
 .about-section{
     /* color: var(--color); */
     /* background-color: var(--header-bg); */
-    background-color: #A5838380;
-    color: #eaeaea;
+    background-color: #51453880;
+    color: #E4CCB4;
     padding: 5px;
     font-size: 20px;  
     grid-row: 2 / span 1;
@@ -202,7 +202,7 @@ ion-icon {
 #projects-title{
     /* background-color: var(--header-bg); */
     /* color: var(--color); */
-    color: #eaeaea;
+    color: #E4CCB4;
     font-size: 50px;  
     grid-row: 1 / span 1;
     display: flex;
