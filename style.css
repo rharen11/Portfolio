@@ -116,11 +116,10 @@ a:hover, a:visited, a:link, a:active{
 .contact{
     grid-row: 4 / span 1;
     margin-top: 0;
-    margin-bottom: 300px;
     height: 30px;
     display: flex;
     justify-content: left;
-    margin-bottom: 400px;
+    opacity: 0%;
 }
 
 ion-icon {
@@ -305,5 +304,11 @@ ion-icon {
     #projects-icon, #about-icon{
         width: 100px;
         height: 100px;
+    }
+}
+
+@media (min-width: 768px){
+    body{
+        background-image: url(./assets/big-branch.jpg);
     }
 }

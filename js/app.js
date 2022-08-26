@@ -12,25 +12,25 @@ const body = document.querySelector("body")
 
 //event listeners-------------
 
-githubBtn.addEventListener('mouseenter', function(evt){
-    githubBtn.style.color = 'red'
-    githubBtn.style.backgroundColor = 'black'
-})
+// githubBtn.addEventListener('mouseenter', function(evt){
+//     githubBtn.style.color = 'red'
+//     githubBtn.style.backgroundColor = 'black'
+// })
 
-linkedinBtn.addEventListener('mouseover', function(evt){
-    linkedinBtn.style.color = 'red'
-    linkedinBtn.style.backgroundColor = 'black'
-})
+// linkedinBtn.addEventListener('mouseover', function(evt){
+//     linkedinBtn.style.color = 'red'
+//     linkedinBtn.style.backgroundColor = 'black'
+// })
 
-githubBtn.addEventListener('mouseleave', function(evt){
-    githubBtn.style.color = ''
-    githubBtn.style.backgroundColor = ''
-})
+// githubBtn.addEventListener('mouseleave', function(evt){
+//     githubBtn.style.color = ''
+//     githubBtn.style.backgroundColor = ''
+// })
 
-linkedinBtn.addEventListener('mouseleave', function(evt){
-    linkedinBtn.style.color = ''
-    linkedinBtn.style.backgroundColor = ''
-})
+// linkedinBtn.addEventListener('mouseleave', function(evt){
+//     linkedinBtn.style.color = ''
+//     linkedinBtn.style.backgroundColor = ''
+// })
 
 lightDarkBtn.addEventListener('click', toggleLightDark)
 
