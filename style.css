@@ -134,14 +134,13 @@ ion-icon {
     grid-template-rows: 1/4fr 1fr 1fr auto;
 }
 
-#about-title{
-    /* background-color: var(--header-bg); */
-    /* color: var(--color); */
+.about-title{
     color: #E4CCB4;
     font-size: 50px;  
     grid-row: 1 / span 1;
     display: flex;
     justify-content: left;
+    margin: 20px;
 }
 
 .about-section{
