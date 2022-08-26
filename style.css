@@ -49,17 +49,16 @@ body.dark{
 .nav-bar{
     display: flex;
     flex-direction: row;
-    background-color: var(--nav-bar-bg);
+    background-color: #402E32;
+    color: #E4CCB4;
     justify-content: center;
-    gap: 100px;
     padding: 5px;
 }
 
 #nav-link-about, #nav-link-resume, #nav-link-work{
     display: flex;
     justify-content: center;
-    color: var(--nav-bar-text);
-    width: 80px;
+    color: #E4CCB4;
     border-radius: 75%;
 }
 
@@ -80,8 +79,7 @@ a:hover, a:visited, a:link, a:active{
 }
 
 #name{
-    color: var(--color);
-    /* background-color: var(--header-bg); */
+    color: #E4CCB4;
     font-size: 40px;  
     grid-row: 1 / span 1;
     display: flex;
@@ -89,8 +87,7 @@ a:hover, a:visited, a:link, a:active{
 }
 
 #welcome-message{
-    color: var(--color);
-    /* background-color: var(--header-bg); */
+    color: #E4CCB4;
     display: flex;
     justify-content: left;
     opacity: 0.9;
