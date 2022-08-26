@@ -49,7 +49,7 @@ body.dark{
 .nav-bar{
     display: flex;
     flex-direction: row;
-    background-color: #402E32;
+    background-color: #402E3299;
     color: #E4CCB4;
     justify-content: center;
     padding: 5px;
@@ -64,12 +64,11 @@ body.dark{
 
 a:hover, a:visited, a:link, a:active{
     text-decoration: none;
-    color: var(--nav-bar-text);
+    /* color: var(--nav-bar-text); */
 }
 
 #nav-link-about:hover, #nav-link-resume:hover, #nav-link-work:hover{
-    color: var(--nav-bar-hover-text);
-    background-color: var(--nav-bar-hover-bg);
+    color: #C58324;
 }
 
 .welcome-page{
@@ -146,7 +145,7 @@ ion-icon {
 .about-section{
     /* color: var(--color); */
     /* background-color: var(--header-bg); */
-    background-color: #51453880;
+    background-color: #51453899;
     color: #E4CCB4;
     padding: 5px;
     font-size: 20px;  
