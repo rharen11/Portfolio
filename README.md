@@ -1,17 +1,26 @@
-# Portfolio
+# Rachel Kinzel Portfolio
 
-Rachel Kinzel's Portfolio
+Welcome to my portfolio! Explore my works, resume, and get to know me!
 
-Rachel's portfolio is a page with 3 sections dedicated to professional journey and skills. The user can click the contact icons to view Github and LinkedIn profiles. The user can also 'jump' to sections by clicking the links on the navigation bar. In the 'Work' section, the user is able to view the deployable link for 'Tic Tac To' and the Github repository associated with it. 
 
-Getting started: https://rachelkinzel-portfolio.netlify.app/
-                 https://trello.com/b/DctlU2a6/rachel-kinzels-portfolio
 
-![portfolio-screenshot](./assets/screenshot-readme.png "Portfolio")
+## Getting started: 
+* [Check out the app!](https://rachelkinzel-portfolio.netlify.app/)
+* [Trello Planning]( https://trello.com/b/DctlU2a6/rachel-kinzels-portfolio)
 
-Technologies: Javascript, HTML, CSS
-Sourced icons from: https://ionic.io/ionicons
-Sourced card from:  https://getbootstrap.com/docs/4.0/components/card/
-Sourced light/dark toggle code from: https://www.youtube.com/watch?v=W8vzyFFia6Q&list=PL2Kp3FX7ViJhG0pEPC-ysHuQEV_KdQItr&index=42&t=1600s
+![portfolio-screenshot](./assets/new-main.png "Portfolio")
 
-Next steps: improve user interacivity experience, seperate each section into a different web page, add more responsive design to better utilize space and content. 
+## Technologies: 
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+
+## Credits
+* Sourced icons from [Ion Icons](https://ionic.io/ionicons) and [SVG Icons](https://www.svgrepo.com/)
+* Sourced card from [Bootstrap](https://getbootstrap.com/docs/4.0/components/card/)
+* Sourced light/dark toggle code from [Youtube](https://www.youtube.com/watch?v=W8vzyFFia6Q&list=PL2Kp3FX7ViJhG0pEPC-ysHuQEV_KdQItr&index=42&t=1600s)
+
+## Next steps: 
+* Add email form for users
+* Improve UI 
+
