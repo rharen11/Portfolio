@@ -100,6 +100,8 @@ a:hover, a:visited, a:link, a:active{
     grid-row: 3 / span 1;
     display: flex;
     justify-content: left;
+   
+    
 }
 
 #profile-pic img{
@@ -107,6 +109,7 @@ a:hover, a:visited, a:link, a:active{
     object-fit: cover;
     width: 165px;
     height: 165px;
+    border: solid thin #E4CCB4;
 }
 
 .contact{
@@ -139,13 +142,14 @@ ion-icon {
     grid-row: 1 / span 1;
     display: flex;
     justify-content: left;
+    align-items: center;
     margin: 20px;
 }
 
 .about-section{
     /* color: var(--color); */
     /* background-color: var(--header-bg); */
-    background-color: #51453899;
+    background-color: #56423C;
     color: #E4CCB4;
     padding: 5px;
     font-size: 20px;  
@@ -183,6 +187,7 @@ ion-icon {
     width: 175px;
     height: 175px;
     object-fit: cover;
+    border: solid thin #E4CCB4;
 }
 
 .projects-styling{
@@ -306,4 +311,38 @@ ion-icon {
     body{
         background-image: url(./assets/big-branch.jpg);
     }
+
+    .nav-bar{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 15px;
+    }
+    
+    #nav-link-about, #nav-link-resume, #nav-link-work{
+        font-size: medium  ;
+    }
+
+    #name{
+        font-size: 70px;  
+    }
+    
+    #welcome-message{
+        font-size: 30px;
+        padding: 5px;
+    }
+    
+    #profile-pic img{
+        width: 200px;
+        height: 200px;
+    }
+
+    .about-title{
+        justify-content: center;
+    }
+
+    .about-section{
+        justify-content: right;
+    }
+
 }
