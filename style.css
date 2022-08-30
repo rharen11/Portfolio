@@ -155,6 +155,7 @@ ion-icon {
     background-color: #56423C;
     color: #E4CCB4;
     padding: 5px;
+    margin: 0 5px 0 5px;
     font-size: 20px;  
     grid-row: 2 / span 1;
     /* width: 800px; */
@@ -200,6 +201,16 @@ p.indent {
     height: 175px;
     object-fit: cover;
     border: solid thin #E4CCB4;
+}
+
+.ee-img-holder{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.ee-img{
+    margin: 10px;
 }
 
 .projects-styling{
@@ -248,7 +259,7 @@ p.indent {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     /* padding: 10px; */
 }
 
@@ -298,6 +309,16 @@ p.indent {
 .btn-secondary{
     color: #E4CCB4;
     margin: 5px;
+}
+
+.ee-title{
+    color: #E4CCB4;
+    font-size: 50px;  
+    grid-row: 1 / span 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
 }
 
 #light-dark-button {
@@ -394,6 +415,10 @@ p.indent {
 
     .card{
         margin: 20px;
+    }
+
+    #nav-leaf{
+        width: 30px;
     }
 
 }
