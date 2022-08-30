@@ -75,6 +75,52 @@ a:hover, a:visited, a:link, a:active{
     color: #FF8863;
 }
 
+.dropbtn {
+  color: #E4CCB4;
+  border: none;
+  cursor: pointer;
+  background-color: #56423C99;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  background-color: #56423C99;
+  color: #402E32;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #FF8863;
+  color: #402E32;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #402E32;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+    color: #FF8863;
+    background-color: #402E32;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:active .dropbtn {
+  background-color: #3e8e41;
+}
+
 .welcome-page{
     display: grid;
     min-height: 100vh; 
