@@ -49,7 +49,7 @@ body.dark{
 .nav-bar{
     display: flex;
     flex-direction: row;
-    background-color: #402E3299;
+    background-color: #56423C99;
     color: #E4CCB4;
     justify-content: center;
     padding: 5px;
@@ -149,14 +149,17 @@ ion-icon {
 .about-section{
     /* color: var(--color); */
     /* background-color: var(--header-bg); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #56423C;
     color: #E4CCB4;
     padding: 5px;
     font-size: 20px;  
     grid-row: 2 / span 1;
-    display: flex;
-    border-radius: 4px;
-    margin: 1px;
+    /* width: 800px; */
+    /* border-radius: 4px; */
+    /* margin: 1px; */
 }
 
 p.indent {
@@ -362,12 +365,21 @@ p.indent {
         height: 200px;
     }
 
+    .about-section{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-div{
+        width: 800px;
+    }
+
     .about-title{
         justify-content: center;
     }
 
-    .about-section{
-        justify-content: right;
+    .about-page{
+        justify-content: center;
     }
 
     #card-container{
