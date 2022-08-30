@@ -393,8 +393,17 @@ p.indent {
     margin: 20px;
 }
 
+.ee-img-holder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* (A) WRAPPER */
 .hoverwrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: relative; 
     width: 200px;
     height: 200px;
@@ -416,8 +425,8 @@ p.indent {
     bottom: 0; left: 0;
    
     /* (C3) COLORS */
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
+    background-color: #402E32;
+    color: #E4CCB4;
   }
   
   /* (D) SHOW/HIDE */
