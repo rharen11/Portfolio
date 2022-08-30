@@ -72,7 +72,7 @@ a:hover, a:visited, a:link, a:active{
 }
 
 #nav-link-about:hover, #nav-link-resume:hover, #nav-link-work:hover{
-    color: #C58324;
+    color: #FF8863;
 }
 
 .welcome-page{
@@ -139,9 +139,9 @@ a:hover, a:visited, a:link, a:active{
     height: 100px;
 }
 
-#contact-btn{
-    background-color: #46313F;
+.contact-title{
     color: #E4CCB4;
+    padding-left: 20px;
 }
 
 ion-icon {
@@ -444,6 +444,32 @@ p.indent {
 
     #nav-leaf{
         width: 30px;
+    }
+
+    #contact-pic{
+        display: flex;
+        justify-content: left;
+        margin: 40px;
+    }
+    
+    #contact-pic img{
+        border-radius: 75%;
+        object-fit: cover;
+        border: solid thin #E4CCB4;
+        width: 175px;
+        height: 175px;
+    }
+
+    .contact{
+        margin: 60px;
+    }
+
+    ion-icon:hover {
+        color: #FF8863;
+      }
+
+    ion-icon {
+        font-size: 50px;
     }
 
 }
