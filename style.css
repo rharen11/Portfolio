@@ -211,11 +211,11 @@ p.indent {
     /* background-color: var(--header-bg); */
     /* color: var(--color); */
     color: #E4CCB4;
-    font-size: 50px;  
+    font-size: 40px;  
     grid-row: 1 / span 1;
     display: flex;
     justify-content: center;
-    border-radius: 10px;
+    /* border-radius: 10px; */
 }
 
 #projects-section{
@@ -230,8 +230,14 @@ p.indent {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    flex-wrap: wrap;
     align-items: center;
     width: 300px;
+}
+
+.card-title{
+    font-size: large;
+    margin: 5px;
 }
 
 #card-container{
@@ -248,10 +254,10 @@ p.indent {
   flex-direction: column;
   justify-content: center;  
   align-items: center;
-  background-color: #A58383;
-  color: #FFE4F5;
+  background-color: #A46855;
+  color: #E4CCB4;
   padding: 10px;
-  border-radius: 20px;
+  /* border-radius: 20px; */
   width: 280px;
   margin-bottom: 15px;
 }
@@ -261,7 +267,7 @@ p.indent {
 }
 
 .card-img-top{
-    border-radius: 5px;
+    /* border-radius: 5px; */
 }
 
 .bottom-projects-page{
@@ -279,6 +285,16 @@ p.indent {
     width: 175px;
     height: 175px;
     object-fit: cover;
+}
+
+.btn-primary{
+    color: #E4CCB4;
+    margin: 5px;
+}
+
+.btn-secondary{
+    color: #E4CCB4;
+    margin: 5px;
 }
 
 #light-dark-button {
@@ -352,6 +368,20 @@ p.indent {
 
     .about-section{
         justify-content: right;
+    }
+
+    #card-container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        /* width: 300px; */
+        margin: 20px;
+    }
+
+    .card{
+        margin: 20px;
     }
 
 }
