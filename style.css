@@ -395,10 +395,10 @@ p.indent {
 
 /* (A) WRAPPER */
 .hoverwrap {
-    position: relative; /* required for (c2) */
+    position: relative; 
     width: 200px;
     height: 200px;
-    margin: 10px;
+    margin: 40px;
   }
   
   /* (B) RESPONSIVE IMAGE */
