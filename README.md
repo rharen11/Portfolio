@@ -19,6 +19,8 @@ Welcome to my portfolio! Explore my works, resume, and get to know me!
 * Sourced icons from [Ion Icons](https://ionic.io/ionicons) and [SVG Icons](https://www.svgrepo.com/)
 * Sourced card from [Bootstrap](https://getbootstrap.com/docs/4.0/components/card/)
 * Sourced light/dark toggle code from [Youtube](https://www.youtube.com/watch?v=W8vzyFFia6Q&list=PL2Kp3FX7ViJhG0pEPC-ysHuQEV_KdQItr&index=42&t=1600s)
+* Styling for text-over-image from [code boxx](https://code-boxx.com/text-over-image-hover-html-css/)
+* Beautiful background image from [Danielle Eagle](https://unsplash.com/@danielle_eagle) on unsplash
 
 ## Next steps: 
 * Add email form for users
