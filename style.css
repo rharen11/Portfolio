@@ -375,11 +375,15 @@ p.indent {
 .btn-primary{
     color: #E4CCB4;
     margin: 5px;
+    border: solid thin #E4CCB4;
+    padding: 2px;
 }
 
 .btn-secondary{
     color: #E4CCB4;
     margin: 5px;
+    border: solid thin #E4CCB4;
+    padding: 2px;
 }
 
 .ee-title{
