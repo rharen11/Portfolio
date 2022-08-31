@@ -24,8 +24,8 @@ let projects = [
     },
     {
         title: 'Tic Tac To',
-        image: './assets/ttt-pic.png',
-        description: 'App built with Javascript, HTML, and CSS. Try your hand at beating the computer!',
+        image: './assets/ttt-new.png',
+        description: 'App built with Javascript, HTML, and CSS. Play tic tac toe with a twist- Earth VS Saturn!',
         github: 'https://github.com/rharen11/ttt-weekend',
         deployment: 'https://ttt-weekend-rachelkinzel.netlify.app/'
     },
