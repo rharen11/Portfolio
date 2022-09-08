@@ -227,9 +227,6 @@ ion-icon {
     margin: 0 8px 0 8px;
     font-size: 20px;  
     grid-row: 2 / span 1;
-    /* width: 800px; */
-    /* border-radius: 4px; */
-    /* margin: 1px; */
 }
 
 p.indent {
@@ -299,7 +296,6 @@ p.indent {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* border-radius: 10px; */
 }
 
 #projects-section{
@@ -330,8 +326,6 @@ p.indent {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* align-items: center; */
-    /* padding: 10px; */
 }
 
 .card-body{
@@ -342,7 +336,6 @@ p.indent {
   background-color: #402E32;
   color: #E4CCB4;
   padding: 10px;
-  /* border-radius: 20px; */
   width: 280px;
   margin-bottom: 15px;
 }
@@ -351,18 +344,10 @@ p.indent {
     size: inherit;
 }
 
-.card-img-top{
-    /* border-radius: 5px; */
-}
-
 .bottom-projects-page{
     display: flex;
     justify-content: left;
 }
-
-/* #projects-icon{
-    padding:30px;
-} */
 
 #projects-page-pic img{
     border: solid var(--border-color);
@@ -530,7 +515,6 @@ p.indent {
         align-items: center;
         justify-content: center;
         flex-wrap: wrap;
-        /* width: 300px; */
         margin: 20px;
     }
 
